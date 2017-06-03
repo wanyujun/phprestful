@@ -13,9 +13,7 @@ class Index extends \Core\Controller {
 
     public function get()
     {
-        $db = new Model();
-        $data = $db->get('account', ['id', 'name', 'openid', 'number', 'headimg', 'intro']);
-        print_r($data);
+        echo "get";
     }
 
     public function post()
