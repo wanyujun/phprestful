@@ -1,0 +1,26 @@
+{
+  "name": "wanyujun/restframework",
+  "description": "restful framework",
+  "minimum-stability": "dev",
+  "license": "apache",
+  "authors": [
+    {
+      "name": "laowan",
+      "email": "laowan@huiwe.cn"
+    }
+  ],
+  "require": {
+    "catfan/Medoo" : "1.4.3",
+    "monolog/monolog" : "1.0.*",
+  },
+  "autoload":{
+    "fiels":[
+      "core/lib/functions.php"
+    ],
+    "psr-4":{
+      "Core\\":"core/",
+      "Controller\\" : "controller/",
+      "RestException\\":"core/Exception/"
+    }
+  }
+}
