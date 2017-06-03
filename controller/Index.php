@@ -7,8 +7,6 @@
  */
 namespace Controller;
 
-use Core\Model;
-
 class Index extends \Core\Controller {
 
     public function get()
